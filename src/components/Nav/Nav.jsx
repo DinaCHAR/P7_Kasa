@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 /**
- * "Sous" composant du Header, permetttant la navigation vers la page d'acceuil ou la page "About"
+ * "Sous" composant du Header, permetttant la navigation vers la page d'accueil ou la page "About"
  */
 export default function Nav() {
 	return (

@@ -1,5 +1,5 @@
-import emptyStar from "../../assets/images/emptyStar.svg";
-import fullStar from "../../assets/images/star-rate.svg";
+import emptyStar from "../../assets/images/emptyStar.svg";//étoile vide
+import fullStar from "../../assets/images/star-rate.svg";//étoile rempli
 
 /**
  * Composant représentant la notation d'un utilisateur, de 0 à 5

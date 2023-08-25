@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react"; //import des hooks de base react
-import Chevron from "../../assets/images/vectorBas.svg";
+import Chevron from "../../assets/images/vectorBas.svg";//recup les icones
 
 /**
  * Composant qui permet de représenter une liste déroulante
@@ -8,6 +8,7 @@ import Chevron from "../../assets/images/vectorBas.svg";
 export default function Collapse(props) {
 	
 	// On définis l'état initial de la liste à false (refermée)
+	//useState pour crée l'état booléen
 	const [toggle, setToggle] = useState(false); 
 	
 	//On prévoit un état pour définir la hauteur de la liste déroulante

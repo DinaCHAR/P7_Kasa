@@ -1,3 +1,4 @@
+/*useState est un crochet (hook) React qui vous permet d'ajouter un état à un composant fonctionnel */
 import { useState } from "react";
 import left from "../../assets/images/vector-left.svg";
 import right from "../../assets/images/vector-right.svg";

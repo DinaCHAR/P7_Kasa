@@ -5,11 +5,11 @@ import Collapse from "../../components/Collapse/Collapse";
 import Host from "../../components/Host/Host";
 import Rate from "../../components/Rate/Rate";
 import Tag from "../../components/Tag/Tag";
-import axios from "axios";
+import axios from "axios";//librairie qui permet de faire des requêtes
 
 /**
  * Page représentant les détails d'une annonce
- * Permet d'afficher les images d'une annonce via un Carrousel
+ * Permet d'afficher les images d'une annonce via un Carrousel (flèche)
  * Permet d'afficher les mots clé d'une annonce à l'aide du composant Tag
  * Permet d'affcher les information de l'hôte avec le composant Host
  * Permet d'afficher la note de l'hôte à l'aide du composant Rate
